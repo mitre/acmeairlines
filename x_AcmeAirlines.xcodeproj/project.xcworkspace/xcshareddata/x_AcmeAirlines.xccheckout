@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>95E23D09-A042-4899-B31A-778F30DF8A75</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EE64062F156F88638151FBC9C1622B31BDC6C383</key>
+		<string>gitlab.mitre.org:rhannah/diva.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>apps/x_AcmeAirlines/x_AcmeAirlines.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EE64062F156F88638151FBC9C1622B31BDC6C383</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>gitlab.mitre.org:rhannah/diva.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EE64062F156F88638151FBC9C1622B31BDC6C383</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EE64062F156F88638151FBC9C1622B31BDC6C383</string>
+			<key>IDESourceControlWCCName</key>
+			<string>diva%202</string>
+		</dict>
+	</array>
+</dict>
+</plist>

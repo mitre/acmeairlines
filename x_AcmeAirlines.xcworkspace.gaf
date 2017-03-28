@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Application name="x_AcmeAirlines" version="9.0.3.3">
+	<StringPool>
+		<String id="1"/>
+		<String id="2" value="&lt;AppScan&gt;::getClass(&quot;NSString&quot;) -&gt; &lt;AppScanClass&gt;::NSString::+stringWithFormat:((NSString * )&quot;%@%@&quot;, (NSString * )&quot;AgendaHelper.txt: &quot;, content)"/>
+		<String id="3" value="&lt;AppScan&gt;::getClass(&quot;NSString&quot;) -&gt; &lt;AppScanClass&gt;::NSString::+stringWithFormat:((NSString * )&quot;%@%@&quot;, (NSString * )&quot;Error: &quot;, error)"/>
+		<String id="4" value="&lt;AppScan&gt;::getClass(&quot;NSString&quot;) -&gt; &lt;AppScanClass&gt;::NSString::+stringWithFormat:((NSString * )&quot;%@%@&quot;, (NSString * )&quot;PUT data task received response: &quot;, response)"/>
+		<String id="5" value="&lt;AppScan&gt;::getClass(&quot;NSString&quot;) -&gt; &lt;AppScanClass&gt;::NSString::+stringWithFormat:((NSString * )&quot;The content of array: %@&quot;, content)"/>
+		<String id="6" value="&lt;AppScan&gt;::getClass(&quot;NSString&quot;) . &lt;AppScanClass&gt;.NSString.+stringWithFormat: ( (NSString * )&quot;%@%@&quot;, (NSString * )&quot;AgendaHelper.txt: &quot;, content )"/>
+		<String id="7" value="&lt;AppScan&gt;::getClass(&quot;NSString&quot;) . &lt;AppScanClass&gt;.NSString.+stringWithFormat: ( (NSString * )&quot;%@%@&quot;, (NSString * )&quot;Error: &quot;, error )"/>
+		<String id="8" value="&lt;AppScan&gt;::getClass(&quot;NSString&quot;) . &lt;AppScanClass&gt;.NSString.+stringWithFormat: ( (NSString * )&quot;%@%@&quot;, (NSString * )&quot;PUT data task received response: &quot;, response )"/>
+		<String id="9" value="&lt;AppScan&gt;::getClass(&quot;NSString&quot;) . &lt;AppScanClass&gt;.NSString.+stringWithFormat: ( (NSString * )&quot;The content of array: %@&quot;, content )"/>
+		<String id="10" value="&lt;AppScan&gt;::getClass(&quot;UIDevice&quot;) -&gt; &lt;AppScanClass&gt;::UIDevice::+currentDevice() -&gt; UIDevice::-identifierForVendor()"/>
+		<String id="11" value="&lt;AppScan&gt;::getClass(&quot;UIDevice&quot;) -&gt; &lt;AppScanClass&gt;::UIDevice::+currentDevice() . UIDevice.-identifierForVendor ()"/>
+		<String id="12" value="&lt;AppScanClass&gt;.NSData.+dataWithContentsOfFile:(NSString*):instancetype _Nullable"/>
+		<String id="13" value="&lt;AppScanClass&gt;.NSString.+stringWithContentsOfFile:encoding:error:(NSString*;NSStringEncoding;NSError**):instancetype _Nullable"/>
+		<String id="14" value="&lt;AppScanClass&gt;.NSString.+stringWithFormat:(NSString*;...):instancetype _Nonnull"/>
+		<String id="15" value="&lt;external_caller&gt;"/>
+		<String id="16" value="&lt;external_caller&gt;():void"/>
+		<String id="17" value="&lt;external_source&gt;"/>
+		<String id="18" value="&lt;external_source&gt; ( data, response, error )"/>
+		<String id="19" value="&lt;external_source&gt;(...):void"/>
+		<String id="20" value="AddedVulnerabilities"/>
+		<String id="21" value="AddedVulnerabilities.-addToLog:"/>
+		<String id="22" value="AddedVulnerabilities.-addToLog:(NSString*):void"/>
+		<String id="23" value="AddedVulnerabilities.-getApps"/>
+		<String id="24" value="AddedVulnerabilities.-getApps():void"/>
+		<String id="25" value="AddedVulnerabilities.-sendPutRequest:withUrl:"/>
+		<String id="26" value="AddedVulnerabilities.-sendPutRequest:withUrl:(NSString*;NSString*):void"/>
+		<String id="27" value="AppDelegate"/>
+		<String id="28" value="AppDelegate.-onKeyboardHide:"/>
+		<String id="29" value="AppDelegate.-onKeyboardHide:(NSNotification*):void"/>
+		<String id="30" value="AppDelegate.-phoneHome:withFile:atPath:"/>
+		<String id="31" value="AppDelegate.-phoneHome:withFile:atPath:(NSString*;NSString*;NSString*):void"/>
+		<String id="32" value="Closure_@___x_AcmeAirlines_AddedVulnerabilities_m_348_71"/>
+		<String id="33" value="Closure_@___x_AcmeAirlines_AddedVulnerabilities_m_348_71.-block"/>
+		<String id="34" value="Closure_@___x_AcmeAirlines_AddedVulnerabilities_m_348_71.-block(char;NSError*):void"/>
+		<String id="35" value="Closure_@___x_AcmeAirlines_AppDelegate_m_248_97"/>
+		<String id="36" value="Closure_@___x_AcmeAirlines_AppDelegate_m_248_97.-block"/>
+		<String id="37" value="Closure_@___x_AcmeAirlines_AppDelegate_m_248_97.-block(NSData*;NSURLResponse*;NSError*):void"/>
+		<String id="38" value="NSData"/>
+		<String id="39" value="NSData.+dataWithContentsOfFile:"/>
+		<String id="40" value="NSMutableURLRequest"/>
+		<String id="41" value="NSMutableURLRequest.-setHTTPBody:"/>
+		<String id="42" value="NSMutableURLRequest.-setHTTPBody:(NSData*):void"/>
+		<String id="43" value="NSString"/>
+		<String id="44" value="NSString.+stringWithContentsOfFile:encoding:error:"/>
+		<String id="45" value="NSString.+stringWithFormat:"/>
+		<String id="46" value="NSString.-dataUsingEncoding:allowLossyConversion:"/>
+		<String id="47" value="NSString.-dataUsingEncoding:allowLossyConversion:(NSStringEncoding;BOOL):NSData*"/>
+		<String id="48" value="NSURLSession"/>
+		<String id="49" value="NSURLSession.-dataTaskWithRequest:completionHandler:"/>
+		<String id="50" value="NSURLSession.-dataTaskWithRequest:completionHandler:(NSURLRequest*;(^)(NSData*;NSURLResponse*;NSError*):void):NSURLSessionDataTask*"/>
+		<String id="51" value="NSUUID"/>
+		<String id="52" value="NSUUID.-UUIDString"/>
+		<String id="53" value="NSUUID.-UUIDString():NSString*"/>
+		<String id="54" value="UIDevice"/>
+		<String id="55" value="UIDevice.-identifierForVendor"/>
+		<String id="56" value="UIDevice.-identifierForVendor():NSUUID*"/>
+		<String id="57" value="Vulnerability.Privacy.DataLeakage"/>
+		<String id="58" value="completeString"/>
+		<String id="59" value="completeString = &lt;AppScan&gt;::getClass(&quot;NSString&quot;) . &lt;AppScanClass&gt;.NSString.+stringWithFormat: ( (NSString * )&quot;%@: %@: %@&#10;&quot;, currentDeviceId, currentTime, logOutput )"/>
+		<String id="60" value="content"/>
+		<String id="61" value="content = &lt;AppScan&gt;::getClass(&quot;NSString&quot;) . &lt;AppScanClass&gt;.NSString.+stringWithContentsOfFile:encoding:error: ( fileName, (unsigned int)4, (void * )0 )"/>
+		<String id="62" value="content = &lt;AppScan&gt;::getClass(&quot;NSString&quot;) . &lt;AppScanClass&gt;.NSString.+stringWithContentsOfFile:encoding:error: ( filename, (unsigned int)4, (void * )0 )"/>
+		<String id="63" value="currentDeviceId"/>
+		<String id="64" value="currentDeviceId = &lt;AppScan&gt;::getClass(&quot;UIDevice&quot;) -&gt; &lt;AppScanClass&gt;::UIDevice::+currentDevice() -&gt; UIDevice::-identifierForVendor() . NSUUID.-UUIDString ()"/>
+		<String id="65" value="dataAsString"/>
+		<String id="66" value="error"/>
+		<String id="67" value="fileData"/>
+		<String id="68" value="fileData = &lt;AppScan&gt;::getClass(&quot;NSData&quot;) . &lt;AppScanClass&gt;.NSData.+dataWithContentsOfFile: ( filePath )"/>
+		<String id="69" value="logOutput"/>
+		<String id="70" value="postDataTask = session . NSURLSession.-dataTaskWithRequest:completionHandler: ( request, new Closure_@___x_AcmeAirlines_AppDelegate_m_248_97 *  )"/>
+		<String id="71" value="putData"/>
+		<String id="72" value="putData = dataAsString . NSString.-dataUsingEncoding:allowLossyConversion: ( (unsigned int)1, &lt;AppScan&gt;::getClass(&quot;NSNumber&quot;) -&gt; &lt;AppScanClass&gt;::NSNumber::+numberWithBool:(true) )"/>
+		<String id="73" value="request"/>
+		<String id="74" value="request . NSMutableURLRequest.-setHTTPBody: ( fileData )"/>
+		<String id="75" value="request . NSMutableURLRequest.-setHTTPBody: ( putData )"/>
+		<String id="76" value="response"/>
+		<String id="77" value="return value"/>
+		<String id="78" value="self . AddedVulnerabilities.-sendPutRequest:withUrl: ( completeString, &lt;AppScan&gt;::getClass(&quot;NSString&quot;) -&gt; &lt;AppScanClass&gt;::NSString::+stringWithFormat:((NSString * )&quot;%@%@&quot;, SERVER_URL, (NSString * )&quot;/logOutput&quot;) )"/>
+		<String id="79" value="self . AddedVulnerabilities.-sendPutRequest:withUrl: ( content, &lt;AppScan&gt;::getClass(&quot;NSString&quot;) -&gt; &lt;AppScanClass&gt;::NSString::+stringWithFormat:((NSString * )&quot;%@/applist&quot;, SERVER_URL) )"/>
+		<String id="80" value="self . Closure_@___x_AcmeAirlines_AppDelegate_m_248_97.-block ( data, response, error )"/>
+		<String id="81" value="self-&gt;_self . AddedVulnerabilities.-addToLog: ( &lt;AppScan&gt;::getClass(&quot;NSString&quot;) -&gt; &lt;AppScanClass&gt;::NSString::+stringWithFormat:((NSString * )&quot;The content of array: %@&quot;, content) )"/>
+		<String id="82" value="self-&gt;_self . AddedVulnerabilities.-sendPutRequest:withUrl: ( content, &lt;AppScan&gt;::getClass(&quot;NSString&quot;) -&gt; &lt;AppScanClass&gt;::NSString::+stringWithFormat:((NSString * )&quot;%@/calendarAppointments&quot;, SERVER_URL) )"/>
+		<String id="83" value="session . NSURLSession.-dataTaskWithRequest:completionHandler: ( request, new Closure_@___x_AcmeAirlines_AppDelegate_m_248_97 *  )"/>
+		<String id="84" value="vulnerabilities . AddedVulnerabilities.-addToLog: ( &lt;AppScan&gt;::getClass(&quot;NSString&quot;) -&gt; &lt;AppScanClass&gt;::NSString::+stringWithFormat:((NSString * )&quot;%@%@&quot;, (NSString * )&quot;AgendaHelper.txt: &quot;, content) )"/>
+		<String id="85" value="vulnerabilities . AddedVulnerabilities.-addToLog: ( &lt;AppScan&gt;::getClass(&quot;NSString&quot;) -&gt; &lt;AppScanClass&gt;::NSString::+stringWithFormat:((NSString * )&quot;%@%@&quot;, (NSString * )&quot;Error: &quot;, error) )"/>
+		<String id="86" value="vulnerabilities . AddedVulnerabilities.-addToLog: ( &lt;AppScan&gt;::getClass(&quot;NSString&quot;) -&gt; &lt;AppScanClass&gt;::NSString::+stringWithFormat:((NSString * )&quot;%@%@&quot;, (NSString * )&quot;PUT data task received response: &quot;, response) )"/>
+		<String id="87" value="x_AcmeAirlines.xcodeproj"/>
+	</StringPool>
+	<FilePool>
+		<File id="1" value="../x_AcmeAirlines/AddedVulnerabilities.m"/>
+		<File id="2" value="../x_AcmeAirlines/AppDelegate.m"/>
+	</FilePool>
+	<SitePool>
+		<Site caller="31" cn="38" col="24" cxt="68" file_id="2" id="1" language_type="15" ln="241" method="39" ord="1" sig="12"/>
+		<Site caller="24" cn="43" col="25" cxt="62" file_id="1" id="2" language_type="15" ln="277" method="44" ord="1" sig="13"/>
+		<Site caller="34" cn="43" col="38" cxt="62" file_id="1" id="3" language_type="15" ln="392" method="44" ord="1" sig="13"/>
+		<Site caller="29" cn="43" col="25" cxt="61" file_id="2" id="4" language_type="15" ln="141" method="44" ord="1" sig="13"/>
+		<Site caller="34" cn="43" col="33" cxt="9" file_id="1" id="5" language_type="15" ln="394" method="45" ord="2" sig="14"/>
+		<Site caller="22" cn="43" col="32" cxt="59" file_id="1" id="6" language_type="15" ln="446" method="45" ord="1" sig="14"/>
+		<Site caller="29" cn="43" col="31" cxt="6" file_id="2" id="7" language_type="15" ln="143" method="45" ord="1" sig="14"/>
+		<Site caller="37" cn="43" col="39" cxt="8" file_id="2" id="8" language_type="15" ln="251" method="45" ord="1" sig="14"/>
+		<Site caller="37" cn="43" col="39" cxt="7" file_id="2" id="9" language_type="15" ln="254" method="45" ord="2" sig="14"/>
+		<Site caller="1" cn="1" cxt="1" file_id="2" id="10" language_type="15" ln="0" method="15" ord="1" sig="16"/>
+		<Site caller="16" cn="1" cxt="18" file_id="2" id="11" language_type="15" ln="0" method="17" ord="1" sig="19"/>
+		<Site caller="34" cn="20" col="18" cxt="81" file_id="1" id="12" language_type="15" ln="394" method="21" ord="1" sig="22"/>
+		<Site caller="1" cn="20" col="35" cxt="1" file_id="1" id="13" language_type="15" ln="438" method="21" ord="1" sig="22"/>
+		<Site caller="29" cn="20" col="5" cxt="84" file_id="2" id="14" language_type="15" ln="143" method="21" ord="1" sig="22"/>
+		<Site caller="37" cn="20" col="13" cxt="86" file_id="2" id="15" language_type="15" ln="251" method="21" ord="1" sig="22"/>
+		<Site caller="37" cn="20" col="13" cxt="85" file_id="2" id="16" language_type="15" ln="254" method="21" ord="2" sig="22"/>
+		<Site caller="1" cn="20" col="25" cxt="1" file_id="1" id="17" language_type="15" ln="277" method="23" ord="1" sig="24"/>
+		<Site caller="24" cn="20" col="5" cxt="79" file_id="1" id="18" language_type="15" ln="281" method="25" ord="1" sig="26"/>
+		<Site caller="34" cn="20" col="18" cxt="82" file_id="1" id="19" language_type="15" ln="395" method="25" ord="1" sig="26"/>
+		<Site caller="22" cn="20" col="5" cxt="78" file_id="1" id="20" language_type="15" ln="449" method="25" ord="1" sig="26"/>
+		<Site caller="1" cn="27" col="25" cxt="1" file_id="2" id="21" language_type="15" ln="141" method="28" ord="1" sig="29"/>
+		<Site caller="1" cn="27" col="24" cxt="1" file_id="2" id="22" language_type="15" ln="241" method="30" ord="1" sig="31"/>
+		<Site caller="1" cn="32" col="38" cxt="1" file_id="1" id="23" language_type="15" ln="392" method="33" ord="1" sig="34"/>
+		<Site caller="16" cn="35" cxt="80" file_id="2" id="24" language_type="15" ln="0" method="36" ord="1" sig="37"/>
+		<Site caller="26" cn="40" col="5" cxt="75" file_id="1" id="25" language_type="15" ln="115" method="41" ord="1" sig="42"/>
+		<Site caller="31" cn="40" col="5" cxt="74" file_id="2" id="26" language_type="15" ln="246" method="41" ord="1" sig="42"/>
+		<Site caller="26" cn="43" col="23" cxt="72" file_id="1" id="27" language_type="15" ln="105" method="46" ord="1" sig="47"/>
+		<Site caller="31" cn="48" col="42" cxt="70" file_id="2" id="28" language_type="15" ln="248" method="49" ord="1" sig="50"/>
+		<Site caller="31" cn="48" col="42" cxt="83" file_id="2" id="29" language_type="15" ln="248" method="49" ord="1" sig="50"/>
+		<Site caller="22" cn="51" col="34" cxt="64" file_id="1" id="30" language_type="15" ln="438" method="52" ord="1" sig="53"/>
+		<Site caller="22" cn="54" col="35" cxt="11" file_id="1" id="31" language_type="15" ln="438" method="55" ord="1" sig="56"/>
+	</SitePool>
+	<TaintPool>
+		<Taint arg="0" arg_name="77" dir="1" id="1" site_id="1" trace_type="2"/>
+		<Taint arg="0" arg_name="77" dir="1" id="2" site_id="2" trace_type="2"/>
+		<Taint arg="0" arg_name="77" dir="1" id="3" site_id="3" trace_type="2"/>
+		<Taint arg="0" arg_name="77" dir="1" id="4" site_id="4" trace_type="2"/>
+		<Taint arg="3" arg_name="60" dir="2" id="5" site_id="5" trace_type="6"/>
+		<Taint arg="3" arg_name="63" dir="2" id="6" site_id="6" trace_type="6"/>
+		<Taint arg="5" arg_name="69" dir="2" id="7" site_id="6" trace_type="6"/>
+		<Taint arg="4" arg_name="60" dir="2" id="8" site_id="7" trace_type="6"/>
+		<Taint arg="4" arg_name="76" dir="2" id="9" site_id="8" trace_type="6"/>
+		<Taint arg="4" arg_name="66" dir="2" id="10" site_id="9" trace_type="6"/>
+		<Taint arg="-1" arg_name="1" dir="0" id="11" site_id="10" trace_type="1"/>
+		<Taint arg="2" arg_name="76" dir="1" id="12" site_id="11" trace_type="2"/>
+		<Taint arg="3" arg_name="66" dir="1" id="13" site_id="11" trace_type="2"/>
+		<Taint arg="2" arg_name="5" dir="2" id="14" site_id="12" trace_type="1"/>
+		<Taint arg="-1" arg_name="1" dir="0" id="15" site_id="13" trace_type="1"/>
+		<Taint arg="2" arg_name="2" dir="2" id="16" site_id="14" trace_type="1"/>
+		<Taint arg="2" arg_name="4" dir="2" id="17" site_id="15" trace_type="1"/>
+		<Taint arg="2" arg_name="3" dir="2" id="18" site_id="16" trace_type="1"/>
+		<Taint arg="-1" arg_name="1" dir="0" id="19" site_id="17" trace_type="1"/>
+		<Taint arg="2" arg_name="60" dir="2" id="20" site_id="18" trace_type="1"/>
+		<Taint arg="2" arg_name="60" dir="2" id="21" site_id="19" trace_type="1"/>
+		<Taint arg="2" arg_name="58" dir="2" id="22" site_id="20" trace_type="1"/>
+		<Taint arg="-1" arg_name="1" dir="0" id="23" site_id="21" trace_type="1"/>
+		<Taint arg="-1" arg_name="1" dir="0" id="24" site_id="22" trace_type="1"/>
+		<Taint arg="-1" arg_name="1" dir="0" id="25" site_id="23" trace_type="1"/>
+		<Taint arg="3" arg_name="76" dir="2" id="26" site_id="24" trace_type="6"/>
+		<Taint arg="4" arg_name="66" dir="2" id="27" site_id="24" trace_type="6"/>
+		<Taint arg="2" arg_name="71" dir="2" id="28" site_id="25" trace_type="3"/>
+		<Taint arg="2" arg_name="67" dir="2" id="29" site_id="26" trace_type="8"/>
+		<Taint arg="1" arg_name="65" dir="2" id="30" site_id="27" trace_type="6"/>
+		<Taint arg="2" arg_name="73" dir="2" id="31" site_id="28" trace_type="3"/>
+		<Taint arg="1" arg_name="10" dir="2" id="32" site_id="30" trace_type="8"/>
+		<Taint arg="0" arg_name="77" dir="1" id="33" site_id="31" trace_type="2"/>
+	</TaintPool>
+	<FindingDataPool>
+		<FindingData ao_id="488271" conf="2" id="1" project_name="87" prop_ids="1838" rec_id="1212179" sev="0" site_id="25" vtype="57"/>
+		<FindingData ao_id="496787" conf="2" id="2" project_name="87" prop_ids="1099,1838" rec_id="1318496" sev="1" site_id="29" vtype="57"/>
+	</FindingDataPool>
+	<Bundle exclusion="false" name="PII" version="8.0.0">
+		<Finding data_id="2" trace="24,1.,29.,31."/>
+		<Finding data_id="1" trace="11,12.,26,9.,17,7.,22,30.,28...."/>
+		<Finding data_id="1" trace="11,13.,27,10.,18,7.,22,30.,28...."/>
+		<Finding data_id="1" trace="15,33.,32.,6.,22,30.,28.."/>
+		<Finding data_id="1" trace="19,2.,20,30.,28.."/>
+		<Finding data_id="1" trace="23,4.,8.,16,7.,22,30.,28..."/>
+		<Finding data_id="1" trace="25,3.,21,30.,28.."/>
+		<Finding data_id="1" trace="25,3.,5.,14,7.,22,30.,28..."/>
+	</Bundle>
+	<FindingModifications exclusion="false" version="8.0.0">
+	</FindingModifications>
+	<Findings exclusion="false" version="8.0.0">
+	</Findings>
+</Application>

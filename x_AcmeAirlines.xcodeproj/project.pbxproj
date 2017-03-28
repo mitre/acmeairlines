@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000A45C01A51E5BC00B19875 /* Agenda.plist in Resources */ = {isa = PBXBuildFile; fileRef = 004ED7041A51A6D7009759A6 /* Agenda.plist */; };
+		001C745D1A5B221B0028E9DC /* PDFManualTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001C745C1A5B221B0028E9DC /* PDFManualTableViewController.m */; };
+		001C74621A5B23270028E9DC /* AerodynamicsForNavalAviators.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 001C745F1A5B23270028E9DC /* AerodynamicsForNavalAviators.pdf */; };
+		004ED6C71A49B6FB009759A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ED6C61A49B6FB009759A6 /* main.m */; };
+		004ED6CA1A49B6FB009759A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ED6C91A49B6FB009759A6 /* AppDelegate.m */; };
+		004ED6CD1A49B6FB009759A6 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ED6CC1A49B6FB009759A6 /* MapViewController.m */; };
+		004ED6D31A49B6FB009759A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004ED6D11A49B6FB009759A6 /* Main.storyboard */; };
+		004ED6D51A49B6FB009759A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004ED6D41A49B6FB009759A6 /* Images.xcassets */; };
+		004ED6D81A49B6FB009759A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 004ED6D61A49B6FB009759A6 /* LaunchScreen.xib */; };
+		004ED6E41A49B6FB009759A6 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ED6E31A49B6FB009759A6 /* DemoTests.m */; };
+		004ED6EE1A49C4A5009759A6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004ED6ED1A49C4A5009759A6 /* MapKit.framework */; };
+		004ED7091A51AA76009759A6 /* AgendaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ED7081A51AA76009759A6 /* AgendaTableViewController.m */; };
+		004ED7191A51CC0B009759A6 /* AddAgendaItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ED7181A51CC0B009759A6 /* AddAgendaItemViewController.m */; };
+		005FE52C1AB20BA600E9CEC1 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005FE52B1AB20BA600E9CEC1 /* CoreAudio.framework */; };
+		005FE52E1AB20BAF00E9CEC1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005FE52D1AB20BAF00E9CEC1 /* AVFoundation.framework */; };
+		005FE5311AB2173C00E9CEC1 /* RadioTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005FE5301AB2173C00E9CEC1 /* RadioTableViewController.m */; };
+		005FE5341AB223BC00E9CEC1 /* AcmeUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 005FE5331AB223BC00E9CEC1 /* AcmeUIApplication.m */; };
+		3BFB2C64FA6AC11B2F00C33B /* libPods-x_AcmeAirlines.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5ED82A729BA311CDE15A51D /* libPods-x_AcmeAirlines.a */; };
+		C64B635D1D060AB4006727E1 /* AddedVulnerabilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C64B635C1D060AB4006727E1 /* AddedVulnerabilities.m */; };
+		C64B63631D09F78C006727E1 /* NotesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64B63621D09F78C006727E1 /* NotesTableViewController.m */; };
+		C67D4ECB1D0F219B00B25C4F /* AddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C67D4ECA1D0F219B00B25C4F /* AddNoteViewController.m */; };
+		C67D4ECD1D108EA100B25C4F /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67D4ECC1D108EA100B25C4F /* EventKit.framework */; };
+		C6C2DE641CF784EE007F4D1E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C2DE631CF784EE007F4D1E /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		004ED6DE1A49B6FB009759A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004ED6B91A49B6FB009759A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004ED6C01A49B6FB009759A6;
+			remoteInfo = Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001C745B1A5B221B0028E9DC /* PDFManualTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFManualTableViewController.h; sourceTree = "<group>"; };
+		001C745C1A5B221B0028E9DC /* PDFManualTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFManualTableViewController.m; sourceTree = "<group>"; };
+		001C745F1A5B23270028E9DC /* AerodynamicsForNavalAviators.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AerodynamicsForNavalAviators.pdf; sourceTree = "<group>"; };
+		004ED6C11A49B6FB009759A6 /* x_AcmeAirlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = x_AcmeAirlines.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		004ED6C51A49B6FB009759A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004ED6C61A49B6FB009759A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		004ED6C91A49B6FB009759A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		004ED6CB1A49B6FB009759A6 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		004ED6CC1A49B6FB009759A6 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		004ED6D21A49B6FB009759A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		004ED6D41A49B6FB009759A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		004ED6D71A49B6FB009759A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		004ED6DD1A49B6FB009759A6 /* x_AcmeAirlinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = x_AcmeAirlinesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		004ED6E21A49B6FB009759A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004ED6E31A49B6FB009759A6 /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		004ED6ED1A49C4A5009759A6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		004ED7041A51A6D7009759A6 /* Agenda.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Agenda.plist; path = ../Agenda.plist; sourceTree = "<group>"; };
+		004ED7081A51AA76009759A6 /* AgendaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaTableViewController.m; sourceTree = "<group>"; };
+		004ED70A1A51AA8C009759A6 /* AgendaTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgendaTableViewController.h; sourceTree = "<group>"; };
+		004ED7171A51CBE3009759A6 /* AddAgendaItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAgendaItemViewController.h; sourceTree = "<group>"; };
+		004ED7181A51CC0B009759A6 /* AddAgendaItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAgendaItemViewController.m; sourceTree = "<group>"; };
+		005FE52B1AB20BA600E9CEC1 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		005FE52D1AB20BAF00E9CEC1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		005FE52F1AB2173C00E9CEC1 /* RadioTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioTableViewController.h; sourceTree = "<group>"; };
+		005FE5301AB2173C00E9CEC1 /* RadioTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioTableViewController.m; sourceTree = "<group>"; };
+		005FE5321AB223BC00E9CEC1 /* AcmeUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeUIApplication.h; sourceTree = "<group>"; };
+		005FE5331AB223BC00E9CEC1 /* AcmeUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeUIApplication.m; sourceTree = "<group>"; };
+		00E506381A5B150E002499A9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D6840CAF40C859D13305B7 /* Pods-x_AcmeAirlines.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-x_AcmeAirlines.debug.xcconfig"; path = "Pods/Target Support Files/Pods-x_AcmeAirlines/Pods-x_AcmeAirlines.debug.xcconfig"; sourceTree = "<group>"; };
+		740DD3B2021291A9826D86C1 /* Pods-x_AcmeAirlines.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-x_AcmeAirlines.release.xcconfig"; path = "Pods/Target Support Files/Pods-x_AcmeAirlines/Pods-x_AcmeAirlines.release.xcconfig"; sourceTree = "<group>"; };
+		C614223F1D145EC2003F99DB /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = "../Downloads/AFNetworking-master/Framework/AFNetworking.h"; sourceTree = "<group>"; };
+		C64B635B1D060AB4006727E1 /* AddedVulnerabilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddedVulnerabilities.h; sourceTree = "<group>"; };
+		C64B635C1D060AB4006727E1 /* AddedVulnerabilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddedVulnerabilities.m; sourceTree = "<group>"; };
+		C64B63611D09F78C006727E1 /* NotesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesTableViewController.h; sourceTree = "<group>"; };
+		C64B63621D09F78C006727E1 /* NotesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesTableViewController.m; sourceTree = "<group>"; };
+		C67D4EC91D0F219B00B25C4F /* AddNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNoteViewController.h; sourceTree = "<group>"; };
+		C67D4ECA1D0F219B00B25C4F /* AddNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNoteViewController.m; sourceTree = "<group>"; };
+		C67D4ECC1D108EA100B25C4F /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		C6C2DE631CF784EE007F4D1E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E5ED82A729BA311CDE15A51D /* libPods-x_AcmeAirlines.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-x_AcmeAirlines.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		004ED6BE1A49B6FB009759A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67D4ECD1D108EA100B25C4F /* EventKit.framework in Frameworks */,
+				C6C2DE641CF784EE007F4D1E /* Security.framework in Frameworks */,
+				005FE52E1AB20BAF00E9CEC1 /* AVFoundation.framework in Frameworks */,
+				005FE52C1AB20BA600E9CEC1 /* CoreAudio.framework in Frameworks */,
+				004ED6EE1A49C4A5009759A6 /* MapKit.framework in Frameworks */,
+				3BFB2C64FA6AC11B2F00C33B /* libPods-x_AcmeAirlines.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004ED6DA1A49B6FB009759A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001C74641A5B23350028E9DC /* Included Files */ = {
+			isa = PBXGroup;
+			children = (
+				004ED7041A51A6D7009759A6 /* Agenda.plist */,
+				001C745F1A5B23270028E9DC /* AerodynamicsForNavalAviators.pdf */,
+			);
+			name = "Included Files";
+			sourceTree = "<group>";
+		};
+		004ED6B81A49B6FB009759A6 = {
+			isa = PBXGroup;
+			children = (
+				C6C2DE631CF784EE007F4D1E /* Security.framework */,
+				005FE52D1AB20BAF00E9CEC1 /* AVFoundation.framework */,
+				005FE52B1AB20BA600E9CEC1 /* CoreAudio.framework */,
+				004ED6ED1A49C4A5009759A6 /* MapKit.framework */,
+				004ED6C31A49B6FB009759A6 /* x_AcmeAirlines */,
+				004ED6E01A49B6FB009759A6 /* AcmeAirlinesTests */,
+				004ED6C21A49B6FB009759A6 /* Products */,
+				A2E8800B8C46135938C731EE /* Pods */,
+				A3F412A3C5CAE5E897D41CA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		004ED6C21A49B6FB009759A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				004ED6C11A49B6FB009759A6 /* x_AcmeAirlines.app */,
+				004ED6DD1A49B6FB009759A6 /* x_AcmeAirlinesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		004ED6C31A49B6FB009759A6 /* x_AcmeAirlines */ = {
+			isa = PBXGroup;
+			children = (
+				C64B63551D05EE1B006727E1 /* Added Vulnerabilities */,
+				00E506381A5B150E002499A9 /* AppDelegate.h */,
+				004ED6C91A49B6FB009759A6 /* AppDelegate.m */,
+				005FE5321AB223BC00E9CEC1 /* AcmeUIApplication.h */,
+				005FE5331AB223BC00E9CEC1 /* AcmeUIApplication.m */,
+				004ED7011A51A430009759A6 /* View Controllers */,
+				004ED6D11A49B6FB009759A6 /* Main.storyboard */,
+				004ED6D41A49B6FB009759A6 /* Images.xcassets */,
+				004ED6D61A49B6FB009759A6 /* LaunchScreen.xib */,
+				001C74641A5B23350028E9DC /* Included Files */,
+				004ED6C41A49B6FB009759A6 /* Supporting Files */,
+			);
+			path = x_AcmeAirlines;
+			sourceTree = "<group>";
+		};
+		004ED6C41A49B6FB009759A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				004ED6C51A49B6FB009759A6 /* Info.plist */,
+				004ED6C61A49B6FB009759A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		004ED6E01A49B6FB009759A6 /* AcmeAirlinesTests */ = {
+			isa = PBXGroup;
+			children = (
+				004ED6E31A49B6FB009759A6 /* DemoTests.m */,
+				004ED6E11A49B6FB009759A6 /* Supporting Files */,
+			);
+			path = AcmeAirlinesTests;
+			sourceTree = "<group>";
+		};
+		004ED6E11A49B6FB009759A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				004ED6E21A49B6FB009759A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		004ED7011A51A430009759A6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				004ED6CB1A49B6FB009759A6 /* MapViewController.h */,
+				004ED6CC1A49B6FB009759A6 /* MapViewController.m */,
+				004ED70A1A51AA8C009759A6 /* AgendaTableViewController.h */,
+				004ED7081A51AA76009759A6 /* AgendaTableViewController.m */,
+				004ED7171A51CBE3009759A6 /* AddAgendaItemViewController.h */,
+				004ED7181A51CC0B009759A6 /* AddAgendaItemViewController.m */,
+				001C745B1A5B221B0028E9DC /* PDFManualTableViewController.h */,
+				001C745C1A5B221B0028E9DC /* PDFManualTableViewController.m */,
+				005FE52F1AB2173C00E9CEC1 /* RadioTableViewController.h */,
+				005FE5301AB2173C00E9CEC1 /* RadioTableViewController.m */,
+				C64B63611D09F78C006727E1 /* NotesTableViewController.h */,
+				C64B63621D09F78C006727E1 /* NotesTableViewController.m */,
+				C67D4EC91D0F219B00B25C4F /* AddNoteViewController.h */,
+				C67D4ECA1D0F219B00B25C4F /* AddNoteViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A2E8800B8C46135938C731EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18D6840CAF40C859D13305B7 /* Pods-x_AcmeAirlines.debug.xcconfig */,
+				740DD3B2021291A9826D86C1 /* Pods-x_AcmeAirlines.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3F412A3C5CAE5E897D41CA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C614223F1D145EC2003F99DB /* AFNetworking.h */,
+				C67D4ECC1D108EA100B25C4F /* EventKit.framework */,
+				E5ED82A729BA311CDE15A51D /* libPods-x_AcmeAirlines.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C64B63551D05EE1B006727E1 /* Added Vulnerabilities */ = {
+			isa = PBXGroup;
+			children = (
+				C64B635B1D060AB4006727E1 /* AddedVulnerabilities.h */,
+				C64B635C1D060AB4006727E1 /* AddedVulnerabilities.m */,
+			);
+			name = "Added Vulnerabilities";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		004ED6C01A49B6FB009759A6 /* x_AcmeAirlines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004ED6E71A49B6FB009759A6 /* Build configuration list for PBXNativeTarget "x_AcmeAirlines" */;
+			buildPhases = (
+				FA108F3A9B74F8EBC73EF878 /* 📦 Check Pods Manifest.lock */,
+				004ED6BD1A49B6FB009759A6 /* Sources */,
+				004ED6BE1A49B6FB009759A6 /* Frameworks */,
+				004ED6BF1A49B6FB009759A6 /* Resources */,
+				C4D56909FC4165C82C45BBFB /* 📦 Embed Pods Frameworks */,
+				06F5599975B9572028EEF480 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = x_AcmeAirlines;
+			productName = Demo;
+			productReference = 004ED6C11A49B6FB009759A6 /* x_AcmeAirlines.app */;
+			productType = "com.apple.product-type.application";
+		};
+		004ED6DC1A49B6FB009759A6 /* x_AcmeAirlinesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004ED6EA1A49B6FB009759A6 /* Build configuration list for PBXNativeTarget "x_AcmeAirlinesTests" */;
+			buildPhases = (
+				004ED6D91A49B6FB009759A6 /* Sources */,
+				004ED6DA1A49B6FB009759A6 /* Frameworks */,
+				004ED6DB1A49B6FB009759A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				004ED6DF1A49B6FB009759A6 /* PBXTargetDependency */,
+			);
+			name = x_AcmeAirlinesTests;
+			productName = DemoTests;
+			productReference = 004ED6DD1A49B6FB009759A6 /* x_AcmeAirlinesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		004ED6B91A49B6FB009759A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iMAS;
+				TargetAttributes = {
+					004ED6C01A49B6FB009759A6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = M9BLEU3LFV;
+					};
+					004ED6DC1A49B6FB009759A6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 004ED6C01A49B6FB009759A6;
+					};
+				};
+			};
+			buildConfigurationList = 004ED6BC1A49B6FB009759A6 /* Build configuration list for PBXProject "x_AcmeAirlines" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 004ED6B81A49B6FB009759A6;
+			productRefGroup = 004ED6C21A49B6FB009759A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				004ED6C01A49B6FB009759A6 /* x_AcmeAirlines */,
+				004ED6DC1A49B6FB009759A6 /* x_AcmeAirlinesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		004ED6BF1A49B6FB009759A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000A45C01A51E5BC00B19875 /* Agenda.plist in Resources */,
+				004ED6D31A49B6FB009759A6 /* Main.storyboard in Resources */,
+				004ED6D81A49B6FB009759A6 /* LaunchScreen.xib in Resources */,
+				001C74621A5B23270028E9DC /* AerodynamicsForNavalAviators.pdf in Resources */,
+				004ED6D51A49B6FB009759A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004ED6DB1A49B6FB009759A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06F5599975B9572028EEF480 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-x_AcmeAirlines/Pods-x_AcmeAirlines-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4D56909FC4165C82C45BBFB /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-x_AcmeAirlines/Pods-x_AcmeAirlines-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA108F3A9B74F8EBC73EF878 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		004ED6BD1A49B6FB009759A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001C745D1A5B221B0028E9DC /* PDFManualTableViewController.m in Sources */,
+				004ED6CA1A49B6FB009759A6 /* AppDelegate.m in Sources */,
+				C67D4ECB1D0F219B00B25C4F /* AddNoteViewController.m in Sources */,
+				004ED6CD1A49B6FB009759A6 /* MapViewController.m in Sources */,
+				C64B63631D09F78C006727E1 /* NotesTableViewController.m in Sources */,
+				004ED7191A51CC0B009759A6 /* AddAgendaItemViewController.m in Sources */,
+				004ED6C71A49B6FB009759A6 /* main.m in Sources */,
+				C64B635D1D060AB4006727E1 /* AddedVulnerabilities.m in Sources */,
+				005FE5311AB2173C00E9CEC1 /* RadioTableViewController.m in Sources */,
+				005FE5341AB223BC00E9CEC1 /* AcmeUIApplication.m in Sources */,
+				004ED7091A51AA76009759A6 /* AgendaTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004ED6D91A49B6FB009759A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004ED6E41A49B6FB009759A6 /* DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		004ED6DF1A49B6FB009759A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004ED6C01A49B6FB009759A6 /* x_AcmeAirlines */;
+			targetProxy = 004ED6DE1A49B6FB009759A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		004ED6D11A49B6FB009759A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				004ED6D21A49B6FB009759A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		004ED6D61A49B6FB009759A6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				004ED6D71A49B6FB009759A6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		004ED6E51A49B6FB009759A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jared Cohen (D5HCMM5AH2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jared Cohen (D5HCMM5AH2)";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		004ED6E61A49B6FB009759A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jared Cohen (D5HCMM5AH2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jared Cohen (D5HCMM5AH2)";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		004ED6E81A49B6FB009759A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D6840CAF40C859D13305B7 /* Pods-x_AcmeAirlines.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Jared Cohen (D5HCMM5AH2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				INFOPLIST_FILE = x_AcmeAirlines/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.MITRE.iMAS.x-AcmeAirlines";
+				PRODUCT_NAME = x_AcmeAirlines;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		004ED6E91A49B6FB009759A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740DD3B2021291A9826D86C1 /* Pods-x_AcmeAirlines.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				INFOPLIST_FILE = x_AcmeAirlines/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.MITRE.iMAS.x-AcmeAirlines";
+				PRODUCT_NAME = x_AcmeAirlines;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		004ED6EB1A49B6FB009759A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AcmeAirlinesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.iMAS.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = x_AcmeAirlinesTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/x_AcmeAirlines.app/x_AcmeAirlines";
+			};
+			name = Debug;
+		};
+		004ED6EC1A49B6FB009759A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AcmeAirlinesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.iMAS.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = x_AcmeAirlinesTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/x_AcmeAirlines.app/x_AcmeAirlines";
+			};
+			name = Release;
+		};
+		C68F2A2B1D185FC3009C5EEF /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jared Cohen (D5HCMM5AH2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jared Cohen (D5HCMM5AH2)";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C68F2A2C1D185FC3009C5EEF /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740DD3B2021291A9826D86C1 /* Pods-x_AcmeAirlines.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				INFOPLIST_FILE = x_AcmeAirlines/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.MITRE.iMAS.x-AcmeAirlines";
+				PRODUCT_NAME = x_AcmeAirlines;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Distribution;
+		};
+		C68F2A2D1D185FC3009C5EEF /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AcmeAirlinesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.iMAS.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = x_AcmeAirlinesTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/x_AcmeAirlines.app/x_AcmeAirlines";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		004ED6BC1A49B6FB009759A6 /* Build configuration list for PBXProject "x_AcmeAirlines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004ED6E51A49B6FB009759A6 /* Debug */,
+				004ED6E61A49B6FB009759A6 /* Release */,
+				C68F2A2B1D185FC3009C5EEF /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004ED6E71A49B6FB009759A6 /* Build configuration list for PBXNativeTarget "x_AcmeAirlines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004ED6E81A49B6FB009759A6 /* Debug */,
+				004ED6E91A49B6FB009759A6 /* Release */,
+				C68F2A2C1D185FC3009C5EEF /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004ED6EA1A49B6FB009759A6 /* Build configuration list for PBXNativeTarget "x_AcmeAirlinesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004ED6EB1A49B6FB009759A6 /* Debug */,
+				004ED6EC1A49B6FB009759A6 /* Release */,
+				C68F2A2D1D185FC3009C5EEF /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 004ED6B91A49B6FB009759A6 /* Project object */;
+}

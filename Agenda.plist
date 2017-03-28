@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>time</key>
+		<string>08:00</string>
+		<key>event</key>
+		<string>Depart</string>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>10:00</string>
+		<key>event</key>
+		<string>Arrive</string>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>13:00</string>
+		<key>event</key>
+		<string>Foo</string>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>15:00</string>
+		<key>event</key>
+		<string>Bar</string>
+	</dict>
+</array>
+</plist>
