@@ -1,10 +1,10 @@
 This iOS app demonstrates a multitude of vulnerable or potentially malicious activities that trace to the NIAP Application Software Protection Profile. The app is meant to look like an electronic flight bag.  This app demonstrates:
-* Access to device hardware resources (4A / NIAP FDP_DEC_EXT.1.1) and to sensitive information repositories on the device (4B / NIAP FDP_DEC_EXT.1.2). 
-* Insecure writing of sensitive application data to device storage (3C / NIAP FDP_DAR_EXT.1.1 and FMT_CFG_EXT.1.2), and insecure network communication (3D / NIAP FDP_DIT_EXT.1.1, FIA_X509_EXT.1.1, FCS_TLSC_EXT.1.2, FCS_TLSC_EXT.1.3, 4C / FDP_NET_EXT.1.1). 
-* Inclusion of default credentials (3E / NIAP FMT_CFG_EXT.1.1) and insecure storage of credentials (3B / NIAP FCS_STO_EXT.1.1). 
-* Failure to invoke an appropriate random number generator where needed (3A / NIAP FCS_RBG_EXT.1.1) and other inappropriate cryptographic practices (3M). 
-* Use of an unsupported platform API (4E / NIAP FPT_API_EXT.1.1).
-* The ability for a malicious app to potentially bypass app vetting by downloading and executing new code after installation time (3J / NIAP FPT_AEX_EXT.1.4 and 4D / NIAP FPT_TUD_EXT.1.4).
+* Access to device hardware resources and to sensitive information repositories on the device. 
+* Insecure writing of sensitive application data to device storage, and insecure network communication. 
+* Inclusion of default credentials and insecure storage of credentials. 
+* Failure to invoke an appropriate random number generator where needed and other inappropriate cryptographic practices. 
+* Use of an unsupported platform API.
+* The ability for a malicious app to potentially bypass app vetting by downloading and executing new code after installation time.
 
 At app start time, the app demonstrates it has established access to device hardware resources by attempting to activate the device microphone for 5 seconds and sending the recorded audio to a remote server. It also uses iOS APIs to attempt to gather information from sensitive information repositories on the device and send the gathered information to a remote server via HTTPS (it can also be configured to use HTTP). This information includes the names of all apps installed on the device and contact list entries.
 
